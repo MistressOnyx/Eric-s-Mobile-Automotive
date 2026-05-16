@@ -6,83 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eric's Mobile Automotive</title>
     <link rel="stylesheet" href="Home.css">
+    <script src="Home.js" defer></script>
 </head>
 
 <body>
-
     <nav>
+        <ul class="sidebar">
+            <li><a href="">Eric's Mobile Automotive</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Ratings</a></li>
+        </ul>
+
+
+
         <ul>
-            <li><img src="EMA-new_logo-.png" alt="Eric's Mobile Automotive Logo" width="100px"></li>
-            <li>Services</li>
-            <li>Products</li>
-            <li>Ratings</li>
-            <li><button>Book an Appointment</button></li>
+            <li><a href="">Eric's Mobile Automotive</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Ratings</a></li>
+            <li onclick=showSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+                        viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
         </ul>
     </nav>
 
-    <section class="Hero-section">
-        <div class="hero" id="hero">
-            <div class="hero-text">
+    <section id="Hero">
+        <div class="hero">
+            <div class="info">
                 <h1>Eric's Mobile Automotive</h1>
-                <p>trusted partner for on-the-go automotive services. We bring the garage to you, providing expert
-                    repairs and maintenance wherever you are.</p>
-                <button>Book an Appointment</button>
-            </div>
-            <div class="hero-img">
-                <img src="EMA-Truck.png" alt="Eric's Mobile Automotive Truck" width="400px">
+                <h2>The shop that comes to you</h2>
+                <p>lorem ipsum dolor sit amet</p>
+                <a href="" class="btn">Book an Appointment</a>
             </div>
         </div>
     </section>
 
-    <section class="products">
-        <div class="Product-Grid">
-
-            <div class="product-item">
-                <img src="Pollen Repellent.png" alt="Pollen Repellent" width="200px">
-                <h3>Pollen Repellent</h3>
-                <p>Explore our wide range of automotive services.</p>
-                <button>Add to Cart</button>
-            </div>
-
-            <div class="product-item">
-                <img src="Pollen Repellent.png" alt="Pollen Repellent" width="200px">
-                <h3>Pollen Repellent</h3>
-                <p>Explore our wide range of automotive services.</p>
-                <button>Add to Cart</button>
-            </div>
-
-            <div class="product-item">
-                <img src="Pollen Repellent.png" alt="Pollen Repellent" width="200px">
-                <h3>Pollen Repellent</h3>
-                <p>Explore our wide range of automotive services.</p>
-                <button>Add to Cart</button>
-            </div>
-
-            <div class="product-item">
-                <img src="Pollen Repellent.png" alt="Pollen Repellent" width="200px">
-                <h3>Pollen Repellent</h3>
-                <p>Explore our wide range of automotive services.</p>
-                <button>Add to Cart</button>
-            </div>
-
-            <div class="product-item">
-                <img src="Pollen Repellent.png" alt="Pollen Repellent" width="200px">
-                <h3>Pollen Repellent</h3>
-                <p>Explore our wide range of automotive services.</p>
-                <button>Add to Cart</button>
-            </div>
-
-            <div class="product-item">
-
-                <h3>Pollen Repellent</h3>
-                <img src="Pollen Repellent.png" alt="Pollen Repellent" width="200px">
-                <p>Explore our wide range of automotive services.</p>
-                <button>Add to Cart</button>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer"></footer>
 
 </body>
 
